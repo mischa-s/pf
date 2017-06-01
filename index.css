@@ -1,27 +1,106 @@
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis',sans-serif;
+}
+a, a:link, a:visited, a:focus, a:hover, a:active{
+  color:white;
+  text-decoration: none;
+}
 main {
   text-align: center;
+}
+h1 {
+  font-family: 'Barrio', cursive;
+  font-size: 2.4rem;
 }
 .resourcesToFollowUpOn {
   width: 500px;
   margin: auto;
+  margin-top: 0;
   text-align: left;
 }
-.box {
+.boxLeft {
+  display: inline-flex;
+  flex-direction: column;
   margin: auto;
   padding: 1rem;
-  display: block;
-  width: 500px;
-  height: 200px;
-  background-color: #1ba71c;
+  width: 35%;
+  height: 400px;
   -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
   transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
-.box:hover {
-    background-color: #FFCCCC;
-    width: 700px;
-    height: 200px;
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+.boxLeft:hover {
+    width: 60%;
+    height: 300px;
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
 }
+.boxRight {
+  display: inline-flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 1rem;
+  width: 35%;
+  height: 400px;
+  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+ol {
+  margin: 500px
+}
+.boxRight:hover {
+    width: 60%;
+    height: 300px;
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+.ADifferentColour {
+  background-image: url("https://3.bp.blogspot.com/-eIBEb25LR5M/UO-SC8H9TfI/AAAAAAAAV9M/0e8I2Zq87Ss/s400/Black+Chalkboard+Background+Small.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: white;
+  height: 400px;
+  width: 100%;
+  
+}
+
+/*@-webkit-keyframes fadeIn {
+  0%   { opacity: 0; }
+  50% { opacity: .75; }
+  100%   { opacity: 0; text: white, }
+}
+@-moz-keyframes fadeIn {
+  0%   { opacity: 0; }
+  50% { opacity: .75; }
+  100%   { opacity: 0; text: white, }
+}
+@-o-keyframes fadeIn {
+  0%   { opacity: 0; }
+  50% { opacity: .75; }
+  100%   { opacity: 0; text: white, }
+}
+@keyframes fadeIn {
+  0%  { white; color: black}
+  25%  { white; color: black}
+  75% { color: black}
+  80% { color: rgb(237, 224, 161)}
+  90% { color: rgb(247, 241, 211)}
+  100% { color: white}
+}
+@keyframes fadeIn {
+  0%  { background-color: white; color: black}
+  25%  { background-color: white; color: black}
+  50% { background-color: rgba(89, 76, 12, 0.45)}
+  75% { background-color: rgba(89, 76, 12, 0.65); color: black}
+  80% { color: rgb(237, 224, 161)}
+  90% { color: rgb(247, 241, 211)}
+  100% { background-color: rgba(65, 55, 0, 0.7); color: white}
+}*/
+
+/*-webkit-animation: fadeIn 28s; /* Safari 4+ */
+-moz-animation:    fadeIn 28s; /* Fx 5+ */
+-o-animation:      fadeIn 28s; /* Opera 12+ */
+animation:         fadeIn 28s; /* IE 10+, Fx 29+ */ */
